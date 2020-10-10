@@ -13,8 +13,7 @@ Implement the class Permutation that will be working with math permutations. By 
 + void Operator () that takes an array of exactly n elements and applies the permutation to it.
 
 
-##### Pay attention
-to the rule of three.
+##### Pay attention to the rule of three.
 
 ### Deadline:
 
