@@ -5,8 +5,8 @@ Implement the class Permutation that will be working with math permutations. By 
 + Constructor from `unsigned int n` that creates the default permutation with `n` numbers.
 + Constructor from the `unsigned int n` and `std::array<n, unsigned int>`. Here you don't need to validate the array, so you can suppose that it represents a valid permutation of the length `n`.
 + Operators ++, -- (prefix and postfix ones) which respectively increase and decrease the permutation in lexicographical order.
-+ Functions `next(...)` and `Previous(...)` that return next or previous permutation of the given permutation (the initial one won't be changed).
-+ Operators >, <. ==, !=, <=, >= that compare permutations in lexicographical order.
++ Functions `next(...)` and `previous(...)` that return next or previous permutation of the given permutation (the initial one won't be changed).
++ Operators >, <, ==, !=, <=, >= that compare permutations in lexicographical order.
 + Operator [] for getting the i-th element of the permutation (must not provide an access for modification of the elements).
 + Method inverse(), that invertes the current permutation.
 + Operator * and *= for multiplication of the permutations.
