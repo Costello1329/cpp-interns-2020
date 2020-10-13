@@ -1,4 +1,4 @@
-# H/w #1: permutation
+# H/w #2: permutation
 
 ### Condition:
 Implement the class Permutation that will be working with math permutations. By definition, permutation is an array of `n` numbers from `0` to `n-1` (each number is included only once). Implement the next methods:
