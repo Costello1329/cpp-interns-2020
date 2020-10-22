@@ -1,4 +1,4 @@
-# H/w #2: permutation
+# H/w #3: permutation
 
 ### Condition:
 Implement the class Permutation that will be working with math permutations. By definition, permutation is an array of `n` numbers from `0` to `n-1` (each number is included only once). Implement the next methods:
@@ -16,4 +16,4 @@ Implement the class Permutation that will be working with math permutations. By 
 ##### Pay attention to the rule of three. Also you can not use any std:: objects/functions except cout, cin, endl.
 
 ### Deadline:
-
++ Undefined.
