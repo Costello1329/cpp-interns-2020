@@ -1,7 +1,7 @@
 # H/w #1: polygon
 
 ### Condition:
-Implement two functions for conunting the area and the perimeter of the polygon. The polygon is given as the triad:
+Implement two functions for counting the area and the perimeter of the polygon. The polygon is given as the triad:
 + const size_t n – the amount of dots
 + const double * const X – the X coordinates of the dots
 + const double * const Y – the Y coordinates of the dots
