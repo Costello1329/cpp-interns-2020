@@ -11,7 +11,7 @@ To count the area, you need to iterate on all of the segments (suppose that seg_
 
 ##### How to pass the h/w check:
 + 1) You are allowed to write the code only where it is stated: `/// Your code goes here`.
-+ 2) You need to send ONE .cpp file to you seminar teacher.
++ 2) You need to send ONE .cpp file to your seminar teacher.
 + 3) The code must be tested properely BEFORE attending.
 + 4) Teacher can decrease points for the task if you've attended it too many times
 + 5) Non-working solutions won't get ANY points at all.
