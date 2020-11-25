@@ -1,14 +1,14 @@
 # H/w #2: bigint
 
 ### Condition:
-In this task you'll have to implement a BigInteger class for managing signed integers of arbitrary length.
+In this task you'll have to implement a `bigint` class for managing signed integers of arbitrary length.
 
 ##### You class has to support these operations:
 + Addition, subtraction and multiplication which behave in the same way as with usual int, also compound assignment for these operations. In other words, you'll need to have these operators: +, -, *, +=, -=, *=
 + Unary - and +, prefix and postfix increment and decrement
 + Comparison operators: ==, !=, <, >, <=, >=
 + Input from and output to streams (You'll need to overload operators >> and << for that)
-+ to_string() method, that returns std::string representation of the number
++ to_string() method, that returns `std::string` representation of the number
 + Constructor from int, that supports implicit conversion
 + Explicit cast to bool that should work, for example, in if clauses
 + **Important**: Don't forget to mark methods as const, where applicable.
