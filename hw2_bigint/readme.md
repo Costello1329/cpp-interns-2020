@@ -3,7 +3,7 @@
 ### Condition:
 In this task you'll have to implement a `bigint` class for managing signed integers of arbitrary length.
 
-##### You class has to support these operations:
+##### Your class has to support these operations:
 + Addition, subtraction and multiplication which behave in the same way as with usual int, also compound assignment for these operations. In other words, you'll need to have these operators: +, -, *, +=, -=, *=
 + Unary - and +, prefix and postfix increment and decrement
 + Comparison operators: ==, !=, <, >, <=, >=
