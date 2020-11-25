@@ -1,19 +1,32 @@
 # H/w #3: permutation
 
 ### Condition:
-Implement the class Permutation that will be working with math permutations. By definition, permutation is an array of `n` numbers from `0` to `n-1` (each number is included only once). Implement the next methods:
-+ Constructor from `unsigned int n` that creates the default permutation with `n` numbers.
-+ Constructor from the `unsigned int n` and `unsigned* values`. Here you don't need to validate the array, so you can suppose that it represents a valid permutation of the length `n`.
-+ Operators ++, -- (prefix and postfix ones) which respectively increase and decrease the permutation in lexicographical order.
-+ Functions `next(...)` and `previous(...)` that return next or previous permutation of the given permutation (the initial one won't be changed).
-+ Operators >, <, ==, !=, <=, >= that compare permutations in lexicographical order.
-+ Operator [] for getting the i-th element of the permutation (must not provide an access for modification of the elements).
-+ Method inverse(), that invertes the current permutation.
-+ Operator * and *= for multiplication of the permutations.
-+ void Operator () that takes an array of exactly n elements and applies the permutation to it.
+Implement a `template <size_t N>` class `permutaion` class which manages [mathematical 
+permutations](https://en.wikipedia.org/wiki/Permutation). Permutation can be stored as an `unsigned` array of 
+size `N`, filled with values from `0` to `N - 1`
+
+Your class has to support these operations:
+- Constructors:
+  - `permutation()` which creates an identity permutation of 
+    given length
+  - `permutation(unsigned *array)` which creates a permutation
+    from an array of values by copying them. You don't need to validate an array and check it's correctness.
+- Copy-constructor and assignment operator
+- Multiplication of permutations that returns composition of two permutations 
+- Prefix and postfix increment and decrement, that return lexicographically 
+  next and previous permutations for the current one
+- Comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=`, which compare 
+  permutations in lexicographical order
+- `operator[]` for accessing permutation element at the given position, but 
+  changing it's value should be disallowed
+- `inverse()` method, returning inverse permutation for the current one
+- `void operator(unsigned* values)`, which applies permutation to 
+  a given array
+
+Don't forget to mark methods as const, where applicable.
 
 
-##### Pay attention to the rule of three. Also you can not use any std:: objects/functions except cout, cin, endl.
+##### Pay attention to the rule of three. Also you can not use any std:: objects/functions except std::swap.
 
 ### Deadline:
 + Undefined.

@@ -13,4 +13,3 @@ class bigint {
 
 
 #endif /// BIGINT_SRC_BIGINT_H.
-
