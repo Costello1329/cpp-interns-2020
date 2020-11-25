@@ -12,7 +12,7 @@ In this task you'll have to implement a BigInteger class for managing signed int
 + Constructor from int, that supports implicit conversion
 + Explicit cast to bool that should work, for example, in if clauses
 + **Important**: Don't forget to mark methods as const, where applicable.
-+ **Important**: You are not allowed to include anything other than <iostream>, <vector> and <string>
++ **Important**: You are not allowed to include anything other than `<iostream>`, `<vector>` and `<string>`
 + It is prohibited to use `using` keyword.
 + *Advice*: we suggest you to rewatch the lectures and seminars on classes (straigth from the begging of the topic!).
 
