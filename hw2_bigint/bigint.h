@@ -7,7 +7,7 @@
 
 
 
-class big_int {
+class bigint {
 
 };
 
