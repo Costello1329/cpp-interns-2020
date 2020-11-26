@@ -1,5 +1,5 @@
 #ifndef BIGINT_SRC_H
-#define BIGINT_SRC_BIGINT_H
+#define BIGINT_SRC_H
 
 #include <iostream>
 #include <string>
@@ -12,4 +12,4 @@ class bigint {
 };
 
 
-#endif /// BIGINT_SRC_BIGINT_H.
+#endif /// BIGINT_SRC_H.
