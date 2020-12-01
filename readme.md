@@ -9,7 +9,7 @@
 ### Rules of the game:
 
 ##### Lessons:
-During the semester each group will have 2 lessons of C++: 1 lecture and 1 seminar.
+During the semester each group will have 2 lessons of C++: 1 lecture and 1 seminar. Course roadmap is [here](https://github.com/Costello1329/cpp-interns-2020/blob/master/_info/roadmap.md).
 
 ##### Homeworks:
 You'll also have 5 homework tasks during the semester. All homeworks cost 60 points. It's absolutely prohibited to write off, each task must be solved individualy! We'll ban every writen off solution. Furthermore, we'll also ban the solution wrom which the other student has written off. If the simuation will happen again – it will cause an instant retake for both sides. You'll also need to stick to codestyle guide: [Google codestyle](https://google.github.io/styleguide/cppguide.html).
