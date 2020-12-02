@@ -16,8 +16,6 @@ In this task you'll have to implement a `bigint` class for managing signed integ
 + It is prohibited to use `using` keyword.
 + *Advice*: we suggest you to rewatch the lectures and seminars on classes (straigth from the begging of the topic!).
 
-##### Pay attention to the rule of three. Also you can not use any std:: objects/functions except std::swap.
-
 #### Partial points for the solution:
 The task is divided into 4 blocks:
 
