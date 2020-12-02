@@ -3,7 +3,7 @@
 ### Condition:
 In this task you'll have to implement a `bigint` class for managing signed integers of arbitrary length.
 
-##### Your class has to support these operations:
+#### Your class has to support these operations:
 + Addition, subtraction and multiplication which behave in the same way as with usual int, also compound assignment for these operations. In other words, you'll need to have these operators: +, -, *, +=, -=, *=
 + Unary - and +, prefix and postfix increment and decrement
 + Comparison operators: ==, !=, <, >, <=, >=
@@ -15,6 +15,16 @@ In this task you'll have to implement a `bigint` class for managing signed integ
 + **Important**: You are not allowed to include anything other than `<iostream>`, `<vector>` and `<string>`
 + It is prohibited to use `using` keyword.
 + *Advice*: we suggest you to rewatch the lectures and seminars on classes (straigth from the begging of the topic!).
+
+#### Partial points for the solution:
+The task is divided into 4 blocks:
+
+1. Constructors, rule of three, input/output operators, to_string, bool: 2pts
+2. Comparison operators: 2pts
+3. Linear arythmetical operators: 3pts
+4. Multiplication: 3pts
+
+In order to get partial points for passing `n` blocks, you need to pass all the tests related to block `n` and every previous block. Your solution is rated automatically.
 
 ##### How to pass the h/w check:
 + 1) You are given with the template. You must write the code strictrly inside this file. You are not allowed to change the class name nor change the file name.
