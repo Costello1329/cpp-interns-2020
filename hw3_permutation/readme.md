@@ -25,7 +25,7 @@ Your class has to support these operations:
 
 Don't forget to mark methods as const, where applicable.
 
-##### Pay attention to the rule of three. Also you can not use any std:: objects/functions except std::swap.
+##### You can not use any std:: objects/functions except std::swap.
 
 #### Partial points for the solution:
 The task is divided into 4 blocks:
