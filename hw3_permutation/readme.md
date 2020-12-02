@@ -25,8 +25,18 @@ Your class has to support these operations:
 
 Don't forget to mark methods as const, where applicable.
 
-
 ##### Pay attention to the rule of three. Also you can not use any std:: objects/functions except std::swap.
+
+#### Partial points for the solution:
+The task is divided into 4 blocks:
+
+1. Constructors, rule of three, operator[]: 2pts
+2. Comparison operators: 2pts
+3. Operator(), multiplication: 3pts
+4. Inverse: 1pts
+5. Next, prev, linear arythmetical operators: 4pts
+
+In order to get partial points for passing `n` blocks, you need to pass all the tests related to block `n` and every previous block. Your solution is rated automatically.
 
 
 ##### How to pass the h/w check:
