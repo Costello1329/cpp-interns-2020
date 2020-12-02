@@ -27,11 +27,23 @@ You class has to support these operations:
 
 Don't forget to mark methods as const, where applicable.
 
-You are not allowed to include anything other than 
-`<iostream>`, `<vector>` and `<string>`
+You are not allowed to include anything.
 
 
 ##### Pay attention to the rule of three. Also you can not use any std:: objects/functions except std::swap.
+
+#### Partial points for the solution:
+The task is divided into 4 blocks:
+
+1. Constructors, rule of three, methods at: 2pts
+2. Comparison: 1pts
+3. Linear arithmetic operators: 3pts
+4. Multiplication: 2pts
+5. Transpose: 1pts
+6. Det, trace: 5pts
+
+In order to get partial points for passing `n` blocks, you need to pass all the tests related to block `n` and every previous block. Your solution is rated automatically.
+
 
 ##### How to pass the h/w check:
 + 1) You are given with the template. You must write the code strictrly inside this file. You are not allowed to change the class name nor change the file name.
