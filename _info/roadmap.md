@@ -148,17 +148,12 @@
 ### Templates:
 - What are templates (motivation):
     - Template classes and functions. (Examples)
-    - Polymorphism and Patterns, Static Polymorphism.
 - Template specializations:
     - The principle of particular: “particular is preferable to general”.
     - Partial and full specializations.
     - The principle is "better exact match, we have type casting".
     - Specialization vs template function overloading.
-    - Compiler selection rules for specialization and overloading candidates
-- Typedef, template typedefs, using.
-- The problem with referring to typedefs inside template classes. Using the word typename to solve this problem.
-- Examples of implementation of the simplest type_traits using template structures and typedefs inside them: remove_const, remove_reference.
-- Type inference rules for templates. Discarding references on type inference. Analysis of cases with references and constants.
+    - Compiler selection rules for specialization and overloading candidates 
 - Template parameters that are not types (example: constant length array). Template parameters, which are “template template parameters”.
 
 ### Exceptions:
