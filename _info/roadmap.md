@@ -177,16 +177,14 @@
     - Difference between class inheritance and structs.
     - Final keyword
 - Finding names when inheriting:
-    - Hiding names by the heir.
-    - Explicit call of the parent methods of the inheritor.
-    - Using :: and using.
-    - Problems with the visibility of the names of parents and their fields in descendants in the case of two-level inheritance, where the first level is private inheritance. The rules of working for the friend word in these cases.
-    - The order in which constructors and destructors are called in inheritance. The problem with the initialization of the parents when defining the constructor of the inheritor, again using the initialization lists. Rules for placing objects of inherited classes in memory.
-    - Multiple inheritance, ambiguity with it, diamond inheritance problem. Examples of disambiguation using type conversions and the operator::, a combination of all this with private inheritance.
+    - Hiding names of the base class methods.
+    - Explicit call of the parent methods of the inheritor (Using ::).
+    - The order in which constructors and destructors are called in inheritance. The problem with the initialization of the parents when defining the constructor of the inheritor, again using the initializer lists.
+    - Multiple inheritance, ambiguity with it, diamond inheritance problem. Examples of disambiguation using type conversions and the operator::.
 
 
 - Typecasting between parent and child:
-    - Cutting when copying, casting pointers, casting links.
+    - Trimming when copying, casting pointers, casting references.
     - Features static_cast, reinterpret_cast between parents and descendants.
     - Dynamic_cast operator (unlike static_cast)
 - Virtual functions, their general idea and difference from non-virtual ones:
