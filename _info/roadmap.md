@@ -172,7 +172,7 @@
 ## Block 4: Inheritance
 ### Inheritance:
 - Inheritance declaration:
-    - The access modifier is protected.
+    - Protected access modifier.
     - Difference between private, public and protected inheritance.
     - Difference between class inheritance and structs.
     - Final keyword
