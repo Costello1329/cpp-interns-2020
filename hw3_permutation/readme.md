@@ -2,7 +2,7 @@
 
 ### Condition:
 Implement a `template <size_t N>` class `permutaion` class which manages [mathematical 
-permutations](https://en.wikipedia.org/wiki/Permutation). Permutation can be stored as an `unsigned` array of 
+permutations](https://en.wikipedia.org/wiki/Permutation). Permutation must be stored as an `unsigned` array of 
 size `N`, filled with values from `0` to `N - 1`
 
 Your class has to support these operations:
@@ -13,8 +13,10 @@ Your class has to support these operations:
     from an array of values by copying them. You don't need to validate an array and check it's correctness.
 - Copy-constructor and assignment operator
 - Multiplication of permutations that returns composition of two permutations 
-- Prefix and postfix increment and decrement, that return lexicographically 
+- Methods `next()` and `prev()`, that return lexicographically
   next and previous permutations for the current one
+- Prefix and postfix increment and decrement, lexicographically increment and
+  decrement current permutation
 - Comparison operators: `==`, `!=`, `<`, `>`, `<=`, `>=`, which compare 
   permutations in lexicographical order
 - `operator[]` for accessing permutation element at the given position, but 

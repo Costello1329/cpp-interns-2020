@@ -11,7 +11,7 @@ You class has to support these operations:
 - `Matrix (const T& num)` that initializes elements of 
   the matrix with `num`'s value
 - Binary operators `+`, `-`, `+=`, `-=` that perform addition and subtraction of 
-  matrices of the same size
+  matrices of the same size and also same operators for matrices with scalars
 - Operators `*` and `*=` that multiply matrix by a scalar
 - Operators `*` and `*=` that multiply two matrices together
 - Unary operators `+` and `-`
