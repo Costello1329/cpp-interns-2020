@@ -49,5 +49,5 @@ In order to get partial points for passing `n` blocks, you need to pass all the 
 + 4) **Important**: Writing off is prohibited. We'll have an access to all of the solutions. We'll check uniqueness of every (!) solution. It'll be done automatically with our own software. Every written-off solution will be banned and every pair of similar solutions will receive 0 points.
 
 ### Deadline:
-+ 3-th Jan 2020, 23:59:59.
++ 7-th Jan 2020, 23:59:59.
 
