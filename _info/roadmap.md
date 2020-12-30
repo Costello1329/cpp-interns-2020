@@ -185,7 +185,6 @@
 
 - Typecasting between parent and child:
     - Trimming when copying, casting pointers, casting references.
-    - Features static_cast, reinterpret_cast between parents and descendants.
     - Dynamic_cast operator (unlike static_cast)
 - Virtual functions, their general idea and difference from non-virtual ones:
     - Features of allocation of classes with virtual functions in memory
@@ -208,4 +207,5 @@
     + template `using`
     + in-class `using`
     + in-scope `using`
++ reinterpret_cast, const_cast
 
