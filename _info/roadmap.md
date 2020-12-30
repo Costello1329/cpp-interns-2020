@@ -196,7 +196,16 @@
 - The concept of dynamic polymorphism, polymorphic classes
 - Placement in memory of classes
 - Abstract classes:
-    - "Purely virtual" functions, their features.
+    - Pure virtual functions, their features.
     - Pure virtual destructor.
     - The "pure virtual function call" error and its occurrence.
     - Override keyword.
+
+## Block 5: Forgotten topics
++ `enum` types
++ `typedef` keyword
++ `using` keyword
+    + template `using`
+    + in-class `using`
+    + in-scope `using`
+
