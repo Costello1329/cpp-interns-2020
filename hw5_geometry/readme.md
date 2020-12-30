@@ -84,10 +84,23 @@ Don't forget to mark these common methods of `shape` as virtual, if you intend
 to override them in child classes.
 
 
+#### Partial points for the solution:
+The task is divided into 8 blocks:
+
+1. Vector: 2pts
+2. Shape: 1pts
+3. Circle: 1pts
+4. Polygon: 5pts
+5. Rectangle: 1pts
+6. Square: 1pts
+7. Triangle: 2pts
+8. Various tests (see details in the test log): 3pts
+
+
 ##### Note about submission
 In this task you are allowed to send a multiple file project in an archive.
-To do so, you should have one `solution.h` file that includes all the other needed ones.
-Then, you should pack your project into a `.zip` archive, so that `solution.h`
+To do so, you should have one `geometry.h` file that includes all the other needed ones.
+Then, you should pack your project into a `.zip` archive, so that `geometry.h`
 is located at the root of the archive.
 Your archive shouldn't contain `.cpp` files, these won't get compiled
 
