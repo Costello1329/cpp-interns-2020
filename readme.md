@@ -21,4 +21,4 @@ Each deadline will be stated in the correspoding readme.md file of the task. Eve
 On the last lesson (January 13-th I think) I will conduct an online examination: you'll have to complete an online test. Exam costs 40 points.
 
 ##### Final mark:
-Your final mark can be calculated with this formula: `if x >= 30 then round(x / 10) else retake()` where x is your semester score. 
+Your final mark can be calculated with this formula: `x >= 30 ? round(x / 10) : retake()` where x is your semester score. 
