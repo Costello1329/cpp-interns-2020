@@ -200,11 +200,11 @@
     - `Final` keyword (for methods)
 
 ## Block 5: Forgotten topics
++ `reinterpret_cast`, `const_cast`
 + `enum` types
 + `typedef` keyword
 + `using` keyword
     + template `using`
     + in-class `using`
     + in-scope `using`
-+ reinterpret_cast, const_cast
 
