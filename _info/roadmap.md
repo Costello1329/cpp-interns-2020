@@ -188,17 +188,16 @@
     - Dynamic_cast operator (unlike static_cast)
 - Virtual functions, their general idea and difference from non-virtual ones:
     - Features of allocation of classes with virtual functions in memory
-    - Virtual inheritance. Features of the combination of virtual and non-virtual inheritance.
+    - Virtual inheritance.
     - Concept of the virtual function table
     - Virtual destructor and its purpose
-    - Problem with calling virtual functions in constructors. Problem with default arguments in virtual functions
 - The concept of dynamic polymorphism, polymorphic classes
 - Placement in memory of classes
 - Abstract classes:
     - Pure virtual functions, their features.
-    - Pure virtual destructor.
-    - The "pure virtual function call" error and its occurrence.
+    - Pure virtual destructor (and why it causes the linker error).
     - Override keyword.
+    - `Final` keyword (for methods)
 
 ## Block 5: Forgotten topics
 + `enum` types
