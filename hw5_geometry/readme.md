@@ -84,6 +84,20 @@ Don't forget to mark these common methods of `shape` as virtual, if you intend
 to override them in child classes.
 
 
+#### Important note about comparison:
+Floating point arithmetic is inaccurate, e.g. if you multiply a float by 3 and then divide it by 3, the result may differ a little bit from the initial value. Thus, when comparing two floating point numbers you should define a maximum allowed error for equality. You can define a function for that: 
+
+```c++
+const double EPS = 1e-6;
+
+bool equal(double a, double b) {
+    return std::fabs(a - b) < EPS;
+}
+```
+
+In this task you should use `10^(-6)` as an absolute error.
+
+
 #### Partial points for the solution:
 The task is divided into 8 blocks:
 
