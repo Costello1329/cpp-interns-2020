@@ -31,8 +31,8 @@ The hierarchy of shape must be implemented as follows:
 
 - Class `polygon`. Subclass of `shape`. Constructible from `std::vector<vector>`
 containing points in the order of traversal. It is guaranteed, that points won't
-define a self-intersecting polygon. A polygon should be able to tell its `verticesCount()` -
-number of vertices, and `std::vector<vector> getVertices()` - immutable std::vector of vertices.
+define a self-intersecting polygon. A polygon should be able to tell its `vertices_count()` -
+number of vertices, and `std::vector<vector> get_vertices()` - immutable std::vector of vertices.
 
 - Class `circle`. Subclass of `shape`. Constructible from a `vector` and a number 
 (center and radius). Should be able to tell its `double radius()`
@@ -44,12 +44,12 @@ and `width()`
 
 - Class `square`. Subclass of `rectangle`. Constructible from a `vector` and 
 and a `double` (center and side length). Square should be able to return its
-`circle circumscribedCircle()` and `circle inscribedCircle()`; and also it's 
+`circle circumscribed_circle()` and `circle inscribed_circle()`; and also it's 
 `side()` length.
 
 - Class `triangle`. Subclass of `polygon`.
 Constructible from three `vector`s. Should be able to return its
-`circle circumscribedCircle()` and `circle inscribedCircle()`.
+`circle circumscribed_circle()` and `circle inscribed_circle()`.
 
 
 
@@ -65,7 +65,7 @@ of the shape
 - `operator==(const shape& another)` - checks if given shapes are equal 
 (define the same set of points). Also don't forget about `operator!=`
 
-- `isCongruentTo(const shape& another)` - checks if this shape is congruent to a given one
+- `bool congruent_to(const shape& another)` - checks if this shape is [congruent](https://en.wikipedia.org/wiki/Congruence_relation) to a given one
 
 
 And also these non-const methods:
