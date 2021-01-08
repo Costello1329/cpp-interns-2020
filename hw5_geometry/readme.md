@@ -9,6 +9,7 @@ First of all, we need to define a convenient way of storing points:
 - Struct `vector` - a vector on a plane with these requirments:
   - Fields (data members) `x` and `y` must be public. 
   - Constructor from two `double` arguments.
+  - Default constructor
   - Vectors must be comparable using operators `==` and `!=`
   - Addition and subtraction of vectors must be supported,
     as well as multiplication and division of a vector by a `double` scalar
