@@ -12,7 +12,8 @@ First of all, we need to define a convenient way of storing points:
   - Default constructor
   - Vectors must be comparable using operators `==` and `!=`
   - Addition and subtraction of vectors must be supported,
-    as well as multiplication and division of a vector by a `double` scalar
+    as well as multiplication and division of a vector by a `double` scalar;
+    unary plus and minus too.
   - Method `length()` that returns the magnitude of a vector
 
 - Also some out-of-class functions which operate on vectors:
@@ -33,7 +34,8 @@ The hierarchy of shape must be implemented as follows:
 - Class `polygon`. Subclass of `shape`. Constructible from `std::vector<vector>`
 containing points in the order of traversal. It is guaranteed, that points won't
 define a self-intersecting polygon. A polygon should be able to tell its `vertices_count()` -
-number of vertices, and `std::vector<vector> get_vertices()` - immutable std::vector of vertices.
+number of vertices, and `std::vector<vector> get_vertices()` - immutable std::vector of vertices
+in counter-clockwise order.
 
 - Class `circle`. Subclass of `shape`. Constructible from a `vector` and a number 
 (center and radius). Should be able to tell its `double radius()`
@@ -128,4 +130,4 @@ Your archive shouldn't contain `.cpp` files, these won't get compiled
 
 
 ### Deadline:
-+ 21-th Jan 2020, 23:59:59.
++ 28-th Jan 2020, 23:59:59.
