@@ -1,8 +1,8 @@
 # C++ for the 1-st year international students.
 
 ### Links:
-+ Lectures and seminars (Konstantin Leladze): youtube [playlist](https://www.youtube.com/playlist?list=PL85_gNEP3vgQgZIk8zT4zkJ_MwSfeh9Ob)
-+ Seminars (Roman Gurov): youtube [playlist](https://www.youtube.com/playlist?list=PLRuL5aY5r10iBejW78FDa_m4nRlIjOuz2)
++ Lectures and seminars ([Konstantin Leladze](https://t.me/konstantinleladze)): youtube [playlist](https://www.youtube.com/playlist?list=PL85_gNEP3vgQgZIk8zT4zkJ_MwSfeh9Ob)
++ Seminars ([Roman Gurov](https://t.me/Bedragaren)): youtube [playlist](https://www.youtube.com/playlist?list=PLRuL5aY5r10iBejW78FDa_m4nRlIjOuz2)
 + Scores: google [spreadsheet](https://docs.google.com/spreadsheets/d/1dJR4KqBzcJCpX0HNaIqpYMcPi8nS6TIl47UnJnxBkkk/edit?usp=sharing)
 + Telegram group: invite [link](https://t.me/joinchat/F2NvpxpdsZj48J62Pl5yzw)
 + [Contest](https://contest.yandex.ru/contest/23024/enter/?lang=en)
