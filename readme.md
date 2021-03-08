@@ -5,6 +5,8 @@
 + Seminars (Roman Gurov): youtube [playlist](https://www.youtube.com/playlist?list=PLRuL5aY5r10iBejW78FDa_m4nRlIjOuz2)
 + Scores: google [spreadsheet](https://docs.google.com/spreadsheets/d/1dJR4KqBzcJCpX0HNaIqpYMcPi8nS6TIl47UnJnxBkkk/edit?usp=sharing)
 + Telegram group: invite [link](https://t.me/joinchat/F2NvpxpdsZj48J62Pl5yzw)
++ [Contest](https://contest.yandex.ru/contest/23024/enter/?lang=en)
++ [Alternative contest](https://contest.yandex.ru/contest/23914/enter/?lang=en)
 
 ### Rules of the game:
 
