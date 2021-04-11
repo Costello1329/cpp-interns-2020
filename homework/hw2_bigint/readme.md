@@ -14,7 +14,7 @@ In this task you'll have to implement a `bigint` class for managing signed integ
 + **Important**: Don't forget to mark methods as const, where applicable.
 + **Important**: You are not allowed to include anything other than `<iostream>`, `<vector>` and `<string>`
 + It is prohibited to use `using` keyword.
-+ *Advice*: we suggest you to rewatch the lectures and seminars on classes (straigth from the begging of the topic!).
++ *Advice*: we suggest you to rewatch the lectures and seminars on classes (straight from the begging of the topic!).
 
 #### Partial points for the solution:
 The task is divided into 4 blocks:
